@@ -1,0 +1,104 @@
+#root {
+  max-width: 1780px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.foodImg{
+  height: 100px;
+}
+
+.media{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  
+}
+
+.has-addons{
+  display: flex;
+  align-items: center;
+}
+.control{
+  margin: 10px;
+}
+
+.box{
+  border: 3px solid #888;
+  margin: 20px;display: flex;
+  border-radius: 3em;
+}
+
+.resetButton{
+  color: white;
+  font-size: 20px;
+}
+
+.countBox{
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.info{
+  padding: 10px;
+  margin: 10px;
+}
+strong{
+  font-size: 30px;
+}
+small{
+  font-size: 15px;
+}
+
+.searchInput{
+  width: 40%;
+  height: 30px;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.input{
+  height: 30px;
+}
